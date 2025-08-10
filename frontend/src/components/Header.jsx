@@ -96,31 +96,31 @@ const Header = () => {
             <nav className="flex flex-col py-4">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="px-4 py-3 text-left text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                className="px-4 py-3 text-left text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
               >
                 Início
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="px-4 py-3 text-left text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                className="px-4 py-3 text-left text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
               >
                 Serviços
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')}
-                className="px-4 py-3 text-left text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                className="px-4 py-3 text-left text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
               >
                 Preços
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="px-4 py-3 text-left text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                className="px-4 py-3 text-left text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
               >
                 Sobre
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="px-4 py-3 text-left text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
+                className="px-4 py-3 text-left text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
               >
                 Contato
               </button>
