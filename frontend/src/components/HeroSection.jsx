@@ -26,8 +26,8 @@ const HeroSection = () => {
             
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Higienização de 
-              <span className="text-blue-600"> Estofados</span> em 
-              <span className="text-green-600"> Bertioga</span>
+              <span className="bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent"> Estofados</span> em 
+              <span className="bg-gradient-to-r from-teal-500 via-cyan-500 to-purple-600 bg-clip-text text-transparent"> Bertioga</span>
             </h1>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
