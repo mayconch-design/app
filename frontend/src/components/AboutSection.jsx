@@ -76,7 +76,7 @@ const AboutSection = () => {
               {features.map((feature, index) => (
                 <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="pt-6">
-                    <div className="mx-auto mb-4 p-3 bg-blue-100 text-blue-600 rounded-full w-fit">
+                    <div className="mx-auto mb-4 p-3 bg-gradient-to-r from-purple-100 to-teal-100 text-purple-600 rounded-full w-fit">
                       <feature.icon size={24} />
                     </div>
                     <h4 className="font-semibold text-gray-900 mb-2">{feature.title}</h4>
