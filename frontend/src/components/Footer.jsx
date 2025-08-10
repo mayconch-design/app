@@ -29,9 +29,13 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="text-2xl font-bold text-blue-400">TM</div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_upholstery-pro/artifacts/9sttfge5_Agendamentos%20Higieniza%C3%A7%C3%A3o%2020250809_225207.jpg" 
+                alt="TM Higienização Logo" 
+                className="w-12 h-12 rounded-lg object-cover"
+              />
               <div>
-                <div className="text-lg font-semibold">Higienização</div>
+                <div className="text-lg font-semibold bg-gradient-to-r from-purple-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent">TM Higienização</div>
                 <div className="text-xs text-gray-400">Bertioga - SP</div>
               </div>
             </div>
