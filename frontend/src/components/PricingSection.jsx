@@ -90,7 +90,7 @@ const PricingSection = () => {
 
         {/* Promotional Section */}
         <div className="mt-12 text-center">
-          <Card className="max-w-2xl mx-auto bg-gradient-to-r from-green-50 to-blue-50 border-0">
+          <Card className="max-w-2xl mx-auto bg-gradient-to-r from-purple-50 via-teal-50 to-cyan-50 border-0">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 🎉 Promoção Especial
