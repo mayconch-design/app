@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center bg-gradient-to-r from-purple-100 to-teal-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-6">
               <Star className="w-4 h-4 mr-1" />
               Avaliação 5 estrelas no Google
             </div>
