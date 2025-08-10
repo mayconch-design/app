@@ -54,7 +54,7 @@ const Footer = () => {
               <Button 
                 onClick={handleCallClick}
                 variant="outline"
-                className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white"
+                className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
               >
                 <Phone size={18} className="mr-2" />
                 Ligar
