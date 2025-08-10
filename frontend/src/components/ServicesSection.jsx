@@ -86,7 +86,7 @@ const ServicesSection = () => {
 
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="mx-auto mb-4 p-6 bg-blue-600 text-white rounded-full w-fit">
+              <div className="mx-auto mb-4 p-6 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full w-fit">
                 <span className="text-2xl font-bold">1</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Análise</h4>
@@ -96,7 +96,7 @@ const ServicesSection = () => {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto mb-4 p-6 bg-blue-600 text-white rounded-full w-fit">
+              <div className="mx-auto mb-4 p-6 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full w-fit">
                 <span className="text-2xl font-bold">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Pré-tratamento</h4>
@@ -106,7 +106,7 @@ const ServicesSection = () => {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto mb-4 p-6 bg-blue-600 text-white rounded-full w-fit">
+              <div className="mx-auto mb-4 p-6 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full w-fit">
                 <span className="text-2xl font-bold">3</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Higienização</h4>
@@ -116,7 +116,7 @@ const ServicesSection = () => {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto mb-4 p-6 bg-blue-600 text-white rounded-full w-fit">
+              <div className="mx-auto mb-4 p-6 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full w-fit">
                 <span className="text-2xl font-bold">4</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Finalização</h4>
