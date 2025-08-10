@@ -24,10 +24,16 @@ const Header = () => {
     <header className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-blue-600">TM</div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_upholstery-pro/artifacts/9sttfge5_Agendamentos%20Higieniza%C3%A7%C3%A3o%2020250809_225207.jpg" 
+              alt="TM Higienização Logo" 
+              className="w-12 h-12 rounded-lg object-cover"
+            />
             <div className="text-gray-700">
-              <div className="text-lg font-semibold">Higienização</div>
+              <div className="text-lg font-semibold bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent">
+                TM Higienização
+              </div>
               <div className="text-xs text-gray-500">Bertioga - SP</div>
             </div>
           </div>
