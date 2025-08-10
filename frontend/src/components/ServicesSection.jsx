@@ -40,7 +40,7 @@ const ServicesSection = () => {
           {mockServices.map((service, index) => (
             <Card key={service.id} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 bg-white">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto mb-4 p-4 bg-blue-100 text-blue-600 rounded-full w-fit group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                <div className="mx-auto mb-4 p-4 bg-gradient-to-r from-purple-100 to-teal-100 text-purple-600 rounded-full w-fit group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:via-cyan-500 group-hover:to-teal-500 group-hover:text-white transition-all duration-300">
                   {getIcon(service.icon)}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
