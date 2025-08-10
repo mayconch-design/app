@@ -48,7 +48,7 @@ const HeroSection = () => {
               <Button 
                 onClick={handleCallClick}
                 variant="outline"
-                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 text-lg rounded-lg transition-all duration-300"
+                className="border-2 border-purple-600 text-purple-600 hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:text-white hover:border-transparent px-8 py-4 text-lg rounded-lg transition-all duration-300"
               >
                 Ligar Agora
               </Button>
