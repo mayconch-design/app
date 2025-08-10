@@ -65,12 +65,12 @@ const PricingSection = () => {
               <CardContent className="p-6">
                 <div className="grid gap-4">
                   {selectedCategoryData.items.map((item, index) => (
-                    <div key={index} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors duration-200">
+                    <div key={index} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50 transition-colors duration-200">
                       <div className="flex-1">
                         <h4 className="font-semibold text-gray-900">{item.name}</h4>
                       </div>
                       <div className="flex items-center space-x-4">
-                        <span className="text-2xl font-bold text-blue-600">{item.price}</span>
+                        <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent">{item.price}</span>
                         <Button 
                           onClick={() => handleWhatsAppClick(item)}
                           size="sm"
