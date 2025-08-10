@@ -15,7 +15,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-br from-blue-50 to-white pt-24 pb-16">
+    <section id="home" className="relative bg-gradient-to-br from-purple-50 via-white to-teal-50 pt-24 pb-16">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
