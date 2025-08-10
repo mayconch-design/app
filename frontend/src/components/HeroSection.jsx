@@ -83,15 +83,15 @@ const HeroSection = () => {
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                  <div className="w-8 h-8 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
                   <span className="text-gray-700">Escolha o serviço desejado</span>
                 </div>
                 <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                  <div className="w-8 h-8 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
                   <span className="text-gray-700">Receba orçamento personalizado</span>
                 </div>
                 <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                  <div className="w-8 h-8 bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
                   <span className="text-gray-700">Agende o melhor horário</span>
                 </div>
               </div>
