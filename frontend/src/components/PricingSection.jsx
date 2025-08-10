@@ -56,7 +56,7 @@ const PricingSection = () => {
         {selectedCategoryData && (
           <div className="max-w-4xl mx-auto">
             <Card className="shadow-lg border-0">
-              <CardHeader className="text-center bg-blue-50 rounded-t-lg">
+              <CardHeader className="text-center bg-gradient-to-r from-purple-50 to-teal-50 rounded-t-lg">
                 <h3 className="text-2xl font-bold text-gray-900 flex items-center justify-center">
                   <Tag className="mr-2" size={24} />
                   {selectedCategoryData.category}
