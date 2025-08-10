@@ -42,31 +42,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-6">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
             >
               Início
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
             >
               Serviços
             </button>
             <button 
               onClick={() => scrollToSection('pricing')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
             >
               Preços
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
             >
               Sobre
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-600 hover:via-cyan-500 hover:to-teal-500 hover:bg-clip-text transition-all duration-200"
             >
               Contato
             </button>
