@@ -43,8 +43,8 @@ const PricingSection = () => {
               variant={selectedCategory === category.category ? "default" : "outline"}
               className={`px-4 py-2 rounded-full transition-all duration-300 ${
                 selectedCategory === category.category 
-                  ? 'bg-blue-600 text-white shadow-lg' 
-                  : 'border-blue-600 text-blue-600 hover:bg-blue-50'
+                  ? 'bg-gradient-to-r from-purple-600 via-cyan-500 to-teal-500 text-white shadow-lg border-transparent' 
+                  : 'border-purple-600 text-purple-600 hover:bg-gradient-to-r hover:from-purple-50 hover:to-teal-50'
               }`}
             >
               {category.category}
